@@ -6,4 +6,4 @@ jobs:
     steps:
       - id: test
         run: |
-          echo "Hello 1.0"
+          echo "Hello 1.1"
