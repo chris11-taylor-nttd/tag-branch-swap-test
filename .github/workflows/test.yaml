@@ -1,0 +1,9 @@
+on: workflow_call
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - id: test
+        run: |
+          echo "Hello 1.0"
